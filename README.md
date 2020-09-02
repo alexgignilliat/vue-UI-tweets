@@ -8,6 +8,8 @@ This is my spin off of Codecademy's vue "tweet" interface. Playing around with t
 
 Vue.js, HTML, CSS, JavaScript, Bootstrap
 
+![image](./files/tweet-screenshot.png)
+
 
 ## Contributing
 
