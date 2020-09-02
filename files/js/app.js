@@ -1,3 +1,5 @@
+// Declaring/creating the Vue app.
+
 const app = new Vue({
     el: '#app',
     data: {
