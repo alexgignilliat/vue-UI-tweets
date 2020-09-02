@@ -1,4 +1,4 @@
-console.log = () => {}
+console.log = () => { }
 const { expect } = require('chai');
 const rewire = require('rewire');
 const Vue = require('vue');
@@ -10,4 +10,3 @@ describe('', function () {
         expect(vueApp).to.exist();
     });
 });
-       
