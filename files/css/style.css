@@ -1,3 +1,5 @@
+
+
 body {
     padding-bottom: 4rem;
     background-image: linear-gradient(to left, #f0f6ff, #dddbf4);
@@ -5,10 +7,14 @@ body {
     font-size: 16px;
     line-height: 2rem;
     letter-spacing: 0.6px;
+    background-color: #14171A;
+    color: white;
   }
 
   .container {
       padding: 10px;
+      background-color: #14171A;
+      
   }
   
   em {
@@ -30,14 +36,14 @@ body {
     background-color: #00acee;
     text-align: center;
     font-size: 2rem;
-    font-weight: 900;
     font-stretch: condensed;
     line-height: 0.87;
     letter-spacing: 1.1px;
     color: #ffffff;
     border-radius: 30px;
     border: 1px solid white;
-    box-shadow: 0px 4px 15px rgba(103, 123, 216, 0.432);;
+    box-shadow: 0px 4px 15px rgba(103, 123, 216, 0.432);
+    font-family: Arial, Helvetica, sans-serif
   }
   
   .user {
@@ -68,10 +74,21 @@ body {
     padding: 1.5rem;
     margin-bottom: 2px;
     font-size: .875rem;
+    color: #14171A;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px inset black;
+  }
+
+  .tweet:hover{
+      background-color: #e0ecf1;
+      transition: .5s;
+      box-shadow: 0px 0px 8px inset black;
+    
   }
   
   .tweet h3 {
     font-weight: bold;
+    color: #14171A;
   }
   
   .settings {
@@ -85,6 +102,7 @@ body {
     padding-bottom: 1.1875rem;
     font-weight: bold;
     line-height: 1.64;
+    
   }
   
   .settings label {
@@ -96,7 +114,8 @@ body {
   .settings textarea,
   .settings button {
     padding: 1rem;
-    border: solid 1px #7098f5;
+    border-radius: 20px;
+   
   }
   
   .settings input::placeholder,
@@ -111,6 +130,7 @@ body {
   
   .new-tweet {
     display: flex;
+    color: #14171A;
   }
   
   .new-tweet input {
@@ -122,11 +142,15 @@ body {
   .new-tweet button {
     cursor: pointer;
     border-radius: 2px;
-    background-color: #5919d973;
+    background-color: #00acee;
     color: #ffffff;
     transition: .25s;
+    border-radius: 20px;
   }
   
   .new-tweet button:hover {
-    background-color: #5919d9;
+    background-color: #14171A;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px inset rgba(255, 255, 255, 0.301);
   }
